@@ -25,7 +25,7 @@ public class PresupuestoController {
 	@Autowired
 	private PresupuestoService presS;
 
-	@RequestMapping(path = "/listar")
+	@GetMapping(path = "/listar")
 	public List<Presupuesto> listar() {
 		return presS.getAllPresupuestos();
 	}

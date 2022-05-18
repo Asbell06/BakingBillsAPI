@@ -25,7 +25,7 @@ public class ProductoController {
 	@Autowired
 	private ProductoService prodS;
 
-	@RequestMapping(path = "/listar")
+	@GetMapping(path = "/listar")
 	public List<Producto> listar() {
 
 		return prodS.getAllProductos();

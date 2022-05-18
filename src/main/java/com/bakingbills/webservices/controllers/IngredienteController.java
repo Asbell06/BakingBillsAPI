@@ -25,7 +25,7 @@ public class IngredienteController {
 	@Autowired
 	private IngredienteService ingS;
 
-	@RequestMapping(path = "/listar")
+	@GetMapping(path = "/listar")
 	public List<Ingrediente> listar() {
 		return ingS.getAllIngredientes();
 	}

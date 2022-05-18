@@ -25,7 +25,7 @@ public class UsuarioController {
 	@Autowired
 	private UsuarioService userS;
 
-	@RequestMapping(path = "/listar")
+	@GetMapping(path = "/listar")
 	public List<Usuario> listar() {
 		return userS.getAllUsuarios();
 	}
