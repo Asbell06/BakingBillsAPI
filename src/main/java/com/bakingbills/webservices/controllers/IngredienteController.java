@@ -13,6 +13,7 @@ import com.bakingbills.webservices.models.Ingrediente;
 import com.bakingbills.webservices.services.IngredienteService;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping(path = "/ingrediente")
 public class IngredienteController {
 
