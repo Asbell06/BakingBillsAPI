@@ -70,7 +70,7 @@ public class Usuario {
 		return pwd;
 	}
 
-	public void setPws(String pwd) {
+	public void setPwd(String pwd) {
 		this.pwd = pwd;
 	}
 
